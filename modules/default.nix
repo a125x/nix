@@ -31,6 +31,7 @@
     discord
     toipe
     sketchybar
+    git-credential-manager
 
     #(nerdfonts.override { fonts = [ "Inconsolata LGC Nerd Font" ]; })
 
