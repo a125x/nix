@@ -25,14 +25,25 @@
     neofetch
     neovim 
     bottom
-    bottom-rs
     inconsolata-lgc
     bat
     discord
     toipe
     sketchybar
-    git-credential-manager
-
+    ninja
+    cmake
+    lazygit
+    yarn
+    nerdfonts
+    yazi
+    ffmpegthumbnailer
+    jq
+    poppler
+    fd
+    #rg
+    fzf
+    zoxide
+    xclip
     #(nerdfonts.override { fonts = [ "Inconsolata LGC Nerd Font" ]; })
 
     # # You can also create simple shell scripts directly inside your
