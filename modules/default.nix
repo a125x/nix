@@ -13,6 +13,8 @@
     ];
 
   home.packages = with pkgs; [
+    tmatrix
+    sl
     gnugo
     cowsay
     fortune
@@ -45,6 +47,7 @@
     fzf
     zoxide
     xclip
+    sumatra
     #(nerdfonts.override { fonts = [ "Inconsolata LGC Nerd Font" ]; })
 
     # # You can also create simple shell scripts directly inside your
