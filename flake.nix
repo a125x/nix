@@ -15,7 +15,7 @@
         [ pkgs.vim
         ];
       nixpkgs.config.allowUnfree = true;
-      users.users.a125x.home  = "/Users/a125x";
+      users.users.alex-shatalin.home  = "/Users/alex-shatalin";
       services.nix-daemon.enable = true;
       nix.settings.experimental-features = "nix-command flakes";
       programs.zsh.enable = true;  # default shell on catalina
@@ -36,7 +36,7 @@
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
-          home-manager.users.a125x = import ./modules;
+          home-manager.users.alex-shatalin= import ./modules;
 
           # Optionally, use home-manager.extraSpecialArgs to pass
           # arguments to home.nix

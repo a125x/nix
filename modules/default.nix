@@ -4,7 +4,7 @@
   # DO NOT CHANGE
   home.stateVersion = "23.05"; 
  
-  home.username = "a125x";
+  home.username = "alex-shatalin";
   #
 
   nixpkgs.config.allowUnfreePredicate = pkg:
@@ -13,6 +13,7 @@
     ];
 
   home.packages = with pkgs; [
+    yarn
     tmatrix
     sl
     gnugo
@@ -48,6 +49,7 @@
     zoxide
     xclip
     sumatra
+    ffmpeg
     #(nerdfonts.override { fonts = [ "Inconsolata LGC Nerd Font" ]; })
 
     # # You can also create simple shell scripts directly inside your
@@ -77,11 +79,11 @@
   # source
   #  ~/.nix-profile/etc/profile.d/hm-session-vars.sh
   # or
-  #  /etc/profiles/per-user/a125x/etc/profile.d/hm-session-vars.sh
+  #  /etc/profiles/per-user/alex-shatalin/etc/profile.d/hm-session-vars.sh
 
   programs.git = {
     enable = true;
-    userName = "a125x";
+    userName = "alex-shatalin";
     userEmail = "alexander.andr.shat@gmail.com";
     aliases = {
       prettylog = "...";
